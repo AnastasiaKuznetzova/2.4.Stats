@@ -54,7 +54,7 @@ public class StatsService {
         }
         return sumMoreAverage;
     }
-    public int (int[] sales) {
+    public int calculateMonthLessAverage(int[] sales) {
         int averege = calculateAverage(sales);
         int sumLessAverage = 0;
         for (int sale : sales) {
